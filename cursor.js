@@ -1,7 +1,7 @@
 const cursorImages = [
   {
     display: '../../../recources/Photos/curors/saddog big.png',
-    cursor:  '../../recources/Photos/curors/saddog cursor.png',
+    cursor:  '../../../recources/Photos/curors/saddog cursor.png',
   },
   {
     display: '../../../recources/Photos/curors/verticalpea big.png',
