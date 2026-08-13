@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'ArchivoBlack';
+  src: url('../../recources/Fonts/ArchivoBlack-Regular.ttf');
+}
+
+body {
+    background-image: url("../../recources/Photos/Mario_starting_screen/Group\ 6.png");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: ArchivoBlack;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+    margin-top: 125px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button span:nth-child(10n + 1) {
+    color: #CF251F;
+}
+
+button span:nth-child(10n + 2) {
+    color: #5472AD;
+}
+
+button span:nth-child(10n + 3) {
+    color: #F3D338;
+}
+
+button span:nth-child(10n + 4) {
+    color: #5A80B5;
+}
+
+button span:nth-child(10n + 5) {
+    color: #519A37;
+}

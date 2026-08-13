@@ -1,0 +1,57 @@
+h4 {
+  text-align: center;
+  color: #160B35;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.gallery {
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.art-item {
+  overflow: hidden;
+}
+
+.art-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 10% auto 25% auto;
+}
+
+.carousel img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.carousel-btn {
+  width: 125px;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  font-size: 10rem;
+  cursor: pointer;
+  color: white;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  text-shadow: 2px 2px 5px black ;
+}
+
+.carousel-btn:hover {
+  transform: scale(1.2);
+}

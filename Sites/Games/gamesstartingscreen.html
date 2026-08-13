@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Browser Icon -->
+  <link rel="icon" href="https://i.imgur.com/3kIYfxg.gif">
+  
+  <!-- Tab Name -->
+  <title>Koerbi's Creative Corner</title>
+    <link href="gamesstartingscreen.css" rel="stylesheet" type="text/css" media="all">
+      
+  </head>
+
+  <body>
+
+    <audio controls autoplay>
+      <source src="../../recources/sounds/Super Mario 64 Soundtrack - Title Theme.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+      <img src="../../recources/Photos/Mario_starting_screen/image 13.png" alt="Mario Head" width="334" height="371">
+    </div>
+
+    <div class="container2">
+      <audio id="audio" src="../../recources/sounds/Super Mario 64 Portal Meme Sound SOUND ARCHIVE.mp3"></audio>
+      <button onclick="playSound();">
+        <span>S</span>
+        <span>t</span>
+        <span>a</span>
+        <span>r</span>
+        <span>t</span>
+      </button>
+    </div>
+
+    <script>
+      function playSound(){
+        let audio = document.getElementById('audio');
+        audio.play();
+
+        audio.play = function() {
+            window.location.href = "games.html";
+        };
+      }
+    </script>
+
+  </body>
+
+</html>
