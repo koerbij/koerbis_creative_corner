@@ -39,108 +39,6 @@ h5 {
   position: relative;
 }
 
-.containerstars {
-  position: absolute;
-  left: 10%;
-  top: 3%;
-  transform: rotate(15deg);
-  cursor: pointer;
-  transition: 
-    transform 0.3s ease,
-    filter 0.3s ease;
-  transform-origin: center;
-}
-
-.containerstars:hover {
-  transform: scale(1.25) rotate(20deg);
-  filter: 
-    drop-shadow(0 0 10px #FECC45)
-    drop-shadow(0 0 20px #FECC45)
-    drop-shadow(0 0 35px rgba(255,255,255,0.8));
-}
-
-@keyframes sparkle {
-  0% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FECC45)
-            drop-shadow(0 0 35px #FECC45)
-            drop-shadow(0 0 50px #fff);
-  }
-  100% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-}
-
-.containerstars2 {
-  position: absolute;
-  left: 47%;
-  top: 35%;
-  transform: rotate(100deg);
-  cursor: pointer;
-  transition: 
-    transform 0.3s ease,
-    filter 0.3s ease;
-  transform-origin: center;
-}
-
-.containerstars2:hover {
-  transform: scale(1.25) rotate(90deg);
-  filter: 
-    drop-shadow(0 0 10px #FECC45)
-    drop-shadow(0 0 20px #FECC45)
-    drop-shadow(0 0 35px rgba(255,255,255,0.8));
-}
-
-@keyframes sparkle {
-  0% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FECC45)
-            drop-shadow(0 0 35px #FECC45)
-            drop-shadow(0 0 50px #fff);
-  }
-  100% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-}
-
-.containerstars3 {
-  position: absolute;
-  left: 4%;
-  top: 55%;
-  transform: rotate(50deg);
-  cursor: pointer;
-  transition: 
-    transform 0.3s ease,
-    filter 0.3s ease;
-  transform-origin: center;
-}
-
-.containerstars3:hover {
-  transform: scale(1.25) rotate(60deg);
-  filter: 
-    drop-shadow(0 0 10px #FECC45)
-    drop-shadow(0 0 20px #FECC45)
-    drop-shadow(0 0 35px rgba(255,255,255,0.8));
-}
-
-@keyframes sparkle {
-  0% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FECC45)
-            drop-shadow(0 0 35px #FECC45)
-            drop-shadow(0 0 50px #fff);
-  }
-  100% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-}
-
 .star {
   width: clamp(40px, 6vw, 120px);
   height: auto;
@@ -197,108 +95,6 @@ h5 {
  padding-top: 2%;
  padding-bottom: 4%;
  position: relative;
-}
-
-.containerstars4 {
-  position: absolute;
-  left: -2.3%;
-  top: 85%;
-  transform: rotate(0deg);
-  cursor: pointer;
-  transition: 
-    transform 0.3s ease,
-    filter 0.3s ease;
-  transform-origin: center;
-}
-
-.containerstars4:hover {
-  transform: scale(1.25) rotate(10deg);
-  filter: 
-    drop-shadow(0 0 10px #FECC45)
-    drop-shadow(0 0 20px #FECC45)
-    drop-shadow(0 0 35px rgba(255,255,255,0.8));
-}
-
-@keyframes sparkle {
-  0% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FECC45)
-            drop-shadow(0 0 35px #FECC45)
-            drop-shadow(0 0 50px #fff);
-  }
-  100% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-}
-
-.containerstars5 {
-  position: absolute;
-  left: 97.7%;
-  top: -14%;
-  transform: rotate(0deg);
-  cursor: pointer;
-  transition: 
-    transform 0.3s ease,
-    filter 0.3s ease;
-  transform-origin: center;
-}
-
-.containerstars5:hover {
-  transform: scale(1.25) rotate(10deg);
-  filter: 
-    drop-shadow(0 0 10px #FECC45)
-    drop-shadow(0 0 20px #FECC45)
-    drop-shadow(0 0 35px rgba(255,255,255,0.8));
-}
-
-@keyframes sparkle {
-  0% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FECC45)
-            drop-shadow(0 0 35px #FECC45)
-            drop-shadow(0 0 50px #fff);
-  }
-  100% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-}
-
-.containerstars6 {
-  position: absolute;
-  left: 98.2%;
-  top: 14%;
-  transform: rotate(0deg);
-  cursor: pointer;
-  transition: 
-    transform 0.3s ease,
-    filter 0.3s ease;
-  transform-origin: center;
-}
-
-.containerstars6:hover {
-  transform: scale(1.25) rotate(10deg);
-  filter: 
-    drop-shadow(0 0 10px #FECC45)
-    drop-shadow(0 0 20px #FECC45)
-    drop-shadow(0 0 35px rgba(255,255,255,0.8));
-}
-
-@keyframes sparkle {
-  0% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
-  50% {
-    filter: drop-shadow(0 0 20px #FECC45)
-            drop-shadow(0 0 35px #FECC45)
-            drop-shadow(0 0 50px #fff);
-  }
-  100% {
-    filter: drop-shadow(0 0 5px #FECC45);
-  }
 }
 
 .star-small {
@@ -445,4 +241,64 @@ footer {
 .Insta img {
   padding: 40px;
   padding-bottom: 0%;
+}
+
+/* ── Replace every .containerstars, .containerstars2 ... .containerstars7
+   block (and their repeated @keyframes sparkle) in style.css with this. ── */
+
+.star-deco {
+  position: absolute;
+  left: var(--left, 0%);
+  top: var(--top, 0%);
+  transform: rotate(var(--rot, 0deg));
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  transform-origin: center;
+}
+
+.star-deco:hover {
+  transform: scale(1.25) rotate(var(--hover-rot, var(--rot, 0deg)));
+  filter:
+    drop-shadow(0 0 10px #FECC45)
+    drop-shadow(0 0 20px #FECC45)
+    drop-shadow(0 0 35px rgba(255, 255, 255, 0.8));
+}
+
+@keyframes sparkle {
+  0% {
+    filter: drop-shadow(0 0 5px #FECC45);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #FECC45)
+            drop-shadow(0 0 35px #FECC45)
+            drop-shadow(0 0 50px #fff);
+  }
+  100% {
+    filter: drop-shadow(0 0 5px #FECC45);
+  }
+}
+
+.star-inline {
+  width: clamp(18px, 2.5vw, 32px);
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.star-inline:hover {
+  transform: scale(1.3);
+  filter:
+    drop-shadow(0 0 8px #FECC45)
+    drop-shadow(0 0 16px #FECC45);
+}
+
+.tasterdays-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.tasterdays-title h4 {
+  margin: 0;
 }
