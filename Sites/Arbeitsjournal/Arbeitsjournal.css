@@ -1,0 +1,37 @@
+.Vietnamfusion {
+    width: fit-content;
+    max-width: 90%;       
+    margin: 0 auto;       
+    display: flex;
+    flex-direction: column;
+}
+
+.Vietnamfusion img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.accordion {
+    background-color: #160B35;
+    color:#FECC45;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: none;
+    outline: none;
+}
+
+.active, .accordion:hover {
+    background-color: #B3ABFA;
+}
+
+.panel {
+    display: none;
+    background-color: white;
+}
