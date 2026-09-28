@@ -130,3 +130,34 @@ footer h4 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+footer {
+  margin-top: 30px;
+}
+
+.Insta {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 20px;
+  padding-bottom: 30px;
+}
+
+.Insta p {
+  align-self: center;
+}
+
+.Insta img {
+  padding: 40px;
+  padding-bottom: 0%;
+}
+
+footer h4 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}

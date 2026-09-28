@@ -219,30 +219,6 @@ h5 {
 margin-left: 7%;
 }
 
-footer {
-  margin-top: 30px;
-}
-
-.Insta {
-  display: flex;
-  flex-direction: column;
-  width: 15%;
-  justify-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  row-gap: 20px;
-  padding-bottom: 30px;
-}
-
-.Insta p {
-  align-self: center;
-}
-
-.Insta img {
-  padding: 40px;
-  padding-bottom: 0%;
-}
-
 /* ── Replace every .containerstars, .containerstars2 ... .containerstars7
    block (and their repeated @keyframes sparkle) in style.css with this. ── */
 
