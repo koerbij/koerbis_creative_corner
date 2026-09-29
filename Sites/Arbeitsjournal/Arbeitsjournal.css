@@ -1,6 +1,14 @@
+p { 
+    font-size: 1.25rem !important;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .Vietnamfusion {
-    width: fit-content;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -17,7 +25,7 @@
     background-color: #160B35;
     color:#FECC45;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     font-family: 'Trebuchet MS';
     font-weight: bold;
@@ -35,4 +43,46 @@
 .panel {
     display: none;
     background-color: white;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.firststep {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+}
+
+.firststep .left {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    text-align: justify;
+}
+
+.firststep .right {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+}
+
+.secondstep {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+}
+
+.secondstep .left {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+}
+
+.secondstep .right {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    text-align: justify;
 }
