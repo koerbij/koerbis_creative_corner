@@ -56,11 +56,23 @@
   <img src="../../../recources/Photos/mario 64 star Background Removed.png" alt="Mario 64 Star">
   </div>
 
-  <div class="carousel">
-  <button class="carousel-btn left" onclick="changeSlide(-1)">&#8249;</button>
-  <img id="carousel-img" src="../../../recources/Photos/curors/saddog big.png" alt="cursor preview">
-  <button class="carousel-btn right" onclick="changeSlide(1)">&#8250;</button>
-</div>
+  <audio id="audio" src="../../../recources/sounds/skills/Choose Your Character Meme for Vlogs.mp3"></audio>
+
+  <div class="cursor-selector">
+
+      <div class="banner-holder">
+        <img id="character-banner"
+            src="../../../recources/Photos/skills/Choose_your_character_banner.svg"
+            alt="Choose your character">
+      </div>
+      <audio id="banner-sfx" src="../../../recources/sounds/skills/Choose Your Character Meme for Vlogs.mp3" preload="auto"></audio>
+      
+      <div class="carousel">
+      <button class="carousel-btn left" onclick="changeSlide(-1)">&#8249;</button>
+      <img id="carousel-img" src="../../../recources/Photos/curors/saddog big.png" alt="cursor preview">
+      <button class="carousel-btn right" onclick="changeSlide(1)">&#8250;</button>
+    </div>
+  </div>
 
   <div class="gallery">
 
@@ -132,5 +144,6 @@
 
   <script src="about.js"></script>
   <script src="cursor.js"></script>
+  <script src="chooseyourcharacter.js"></script>
 </body>
 </html>
